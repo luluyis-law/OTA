@@ -1,0 +1,18 @@
+   {
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Debug STM32G4 (J-Link GDB Server)",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "jlink",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/OTA.elf",// 修改为你实际的elf文件名
+            "device": "STM32G431RB",  // 替换为你的具体型号
+            "interface": "swd",
+            "runToEntryPoint": "main",
+            "svdFile": "${workspaceFolder}/STM32G431.svd"//这个文件要从芯片工程包里面获取，这里下载推荐路径为keil官方下载，当然实际你可能使用的 其他国产芯片，keil官方找不到，应该没有提供。
+        }
+    ]
+}

@@ -24,6 +24,10 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "stm32g4xx_hal_def.h"
+#include "bootloader.h"
+#include "sfud.h"
+
 
 /* USER CODE END Includes */
 
@@ -91,6 +95,7 @@ int main(void)
   MX_DMA_Init();
   MX_SPI2_Init();
   /* USER CODE BEGIN 2 */
+  sfud_init();  // 初始化SFUD
 
   /* USER CODE END 2 */
 
@@ -101,6 +106,15 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+  uint8_t upgrade_flag = read_upgrade_flag();  // 从片内Flash读取
+  if (upgrade_flag != UPGRADE_FLAG_SUCCESS) {
+        // 执行升级流程
+        bootloader_run_upgrade();
+    } else {
+        // 无升级请求，直接跳转到APP
+        jump_to_app();
+    }
+
   }
   /* USER CODE END 3 */
 }

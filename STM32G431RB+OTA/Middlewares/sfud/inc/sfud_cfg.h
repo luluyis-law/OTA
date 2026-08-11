@@ -35,7 +35,7 @@
 
 // #define SFUD_USING_FAST_READ
 
-#define SFUD_USING_FLASH_INFO_TABLE
+//#define SFUD_USING_FLASH_INFO_TABLE // 自动匹配功能如果没有成功，则搜索功能，这里注释掉，不要搜索功能
 
 enum {
     SFUD_XXXX_DEVICE_INDEX = 0,

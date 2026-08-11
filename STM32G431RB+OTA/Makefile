@@ -59,7 +59,12 @@ Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c \
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c \
 Core/Src/system_stm32g4xx.c \
 Core/Src/sysmem.c \
-Core/Src/syscalls.c
+Core/Src/syscalls.c \
+Core/Src/bootloader.c \
+Middleware/sfud/src/sfud.c \
+Middleware/sfud/src/sfud_sfdp.c \
+Middleware/sfud/port/sfud_port.c 
+
 
 # ASM sources
 ASM_SOURCES =  \
@@ -124,7 +129,9 @@ C_INCLUDES =  \
 -IDrivers/STM32G4xx_HAL_Driver/Inc \
 -IDrivers/STM32G4xx_HAL_Driver/Inc/Legacy \
 -IDrivers/CMSIS/Device/ST/STM32G4xx/Include \
--IDrivers/CMSIS/Include
+-IDrivers/CMSIS/Include \
+-IMiddlewares/sfud/inc
+
 
 
 # compile gcc flags

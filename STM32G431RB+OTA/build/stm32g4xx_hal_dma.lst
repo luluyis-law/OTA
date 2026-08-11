@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
   28:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****    (#) Enable and configure the peripheral to be connected to the DMA Channel
   29:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****        (except for internal SRAM / FLASH memories: no initialization is
   30:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****        necessary). Please refer to the Reference manual for connection between peripherals
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 2
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 2
 
 
   31:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****        and DMA requests.
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
   85:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
   86:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   @endverbatim
   87:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   */
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 3
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 3
 
 
   88:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  142:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   * @{
  143:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   */
  144:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 4
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 4
 
 
  145:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** /**
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  199:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   /* Prepare the DMA Channel configuration */
  200:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   tmp |=  hdma->Init.Direction        |
  201:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****           hdma->Init.PeriphInc           | hdma->Init.MemInc           |
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 5
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 5
 
 
  202:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****           hdma->Init.PeriphDataAlignment | hdma->Init.MemDataAlignment |
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  256:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
  257:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** /**
  258:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   * @brief  DeInitialize the DMA peripheral.
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 6
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 6
 
 
  259:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   * @param  hdma pointer to a DMA_HandleTypeDef structure that contains
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  313:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****        DMAmuxRequestGen, DMAmuxRequestGenStatus and DMAmuxRequestGenStatusMask
  314:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     */
  315:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     DMA_CalcDMAMUXRequestGenBaseAndMask(hdma);
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 7
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 7
 
 
  316:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  370:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   * @brief  Start the DMA Transfer.
  371:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   * @param  hdma pointer to a DMA_HandleTypeDef structure that contains
  372:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   *               the configuration information for the specified DMA Channel.
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 8
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 8
 
 
  373:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   * @param  SrcAddress The source memory Buffer address
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  427:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   assert_param(IS_DMA_BUFFER_SIZE(DataLength));
  428:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
  429:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   /* Process locked */
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 9
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 9
 
 
  430:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   __HAL_LOCK(hdma);
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  484:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
  485:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** /**
  486:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   * @brief  Abort the DMA Transfer.
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 10
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 10
 
 
  487:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   * @param  hdma pointer to a DMA_HandleTypeDef structure that contains
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  541:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   return status;
  542:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** }
  543:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 11
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 11
 
 
  544:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** /**
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  598:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     /* Process Unlocked */
  599:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     __HAL_UNLOCK(hdma);
  600:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 12
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 12
 
 
  601:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     /* Call User Abort callback */
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  655:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   while (0U == (hdma->DmaBaseAddress->ISR & temp))
  656:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   {
  657:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     if ((0U != (hdma->DmaBaseAddress->ISR & ((uint32_t)DMA_FLAG_TE1 << (hdma->ChannelIndex & 0x1FU)
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 13
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 13
 
 
  658:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     {
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  712:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   if ((hdma->DMAmuxChannelStatus->CSR & hdma->DMAmuxChannelStatusMask) != 0U)
  713:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   {
  714:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     /* Clear the DMAMUX synchro overrun flag */
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 14
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 14
 
 
  715:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     hdma->DMAmuxChannelStatus->CFR = hdma->DMAmuxChannelStatusMask;
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  769:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     {
  770:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****       /* Half transfer callback */
  771:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****       hdma->XferHalfCpltCallback(hdma);
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 15
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 15
 
 
  772:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     }
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  826:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   {
  827:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     /* Nothing To Do */
  828:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   }
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 16
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 16
 
 
  829:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   return;
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  883:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** }
  884:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
  885:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** /**
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 17
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 17
 
 
  886:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   * @brief  UnRegister callbacks
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  940:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   return status;
  941:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** }
  942:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 18
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 18
 
 
  943:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** /**
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  997:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   */
  998:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
  999:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** /**
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 19
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 19
 
 
 1000:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   * @brief  Sets the DMA Transfer parameter.
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
   62              		.loc 1 1020 30 view .LVU11
   63 0020 046C     		ldr	r4, [r0, #64]
   64 0022 C4F804C0 		str	ip, [r4, #4]
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 20
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 20
 
 
 1021:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
   94 003a 0368     		ldr	r3, [r0]
 1029:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
   95              		.loc 1 1029 26 view .LVU26
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 21
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 21
 
 
   96 003c 9A60     		str	r2, [r3, #8]
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  131              		.loc 1 1061 5 is_stmt 1 view .LVU37
  132              	.LVL6:
 1062:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     channel_number = (((uint32_t)hdma->Instance & 0xFFU) - 8U) / 20U;
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 22
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 22
 
 
  133              		.loc 1 1062 5 view .LVU38
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  166 0028 0122     		movs	r2, #1
  167 002a 02FA03F3 		lsl	r3, r2, r3
  168              		.loc 1 1082 33 view .LVU54
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 23
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 23
 
 
  169 002e 0365     		str	r3, [r0, #80]
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
 1091:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
 1092:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** static void DMA_CalcDMAMUXRequestGenBaseAndMask(DMA_HandleTypeDef *hdma)
 1093:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** {
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 24
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 24
 
 
  210              		.loc 1 1093 1 is_stmt 1 view -0
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  256              		.global	HAL_DMA_Init
  257              		.syntax unified
  258              		.thumb
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 25
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 25
 
 
  259              		.thumb_func
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  296              		.loc 1 178 5 is_stmt 1 view .LVU95
  178:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     hdma->DmaBaseAddress = DMA1;
  297              		.loc 1 178 53 is_stmt 0 view .LVU96
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 26
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 26
 
 
  298 0010 2C4B     		ldr	r3, .L29+4
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  335              		.loc 1 201 42 view .LVU113
  336 0038 0343     		orrs	r3, r3, r0
  202:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****           hdma->Init.Mode                | hdma->Init.Priority;
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 27
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 27
 
 
  337              		.loc 1 202 21 view .LVU114
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  374 005e A26C     		ldr	r2, [r4, #72]
  220:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
  375              		.loc 1 220 50 view .LVU132
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 28
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 28
 
 
  376 0060 03F07F03 		and	r3, r3, #127
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  411 0080 0123     		movs	r3, #1
  412 0082 84F82530 		strb	r3, [r4, #37]
  252:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 29
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 29
 
 
  413              		.loc 1 252 3 is_stmt 1 view .LVU152
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  452 00ae 636D     		ldr	r3, [r4, #84]
  233:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
  453              		.loc 1 233 34 view .LVU168
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 30
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 30
 
 
  454 00b0 0022     		movs	r2, #0
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  267:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   {
  502              		.loc 1 267 6 is_stmt 0 view .LVU177
  503 0000 0028     		cmp	r0, #0
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 31
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 31
 
 
  504 0002 4BD0     		beq	.L36
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  544              		.loc 1 293 3 is_stmt 1 view .LVU191
  293:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
  545              		.loc 1 293 24 is_stmt 0 view .LVU192
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 32
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 32
 
 
  546 002e 0025     		movs	r5, #0
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  582 0052 013B     		subs	r3, r3, #1
  310:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   {
  583              		.loc 1 310 6 view .LVU211
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 33
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 33
 
 
  584 0054 032B     		cmp	r3, #3
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  341:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
  618              		.loc 1 341 3 view .LVU232
  343:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** }
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 34
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 34
 
 
  619              		.loc 1 343 3 view .LVU233
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  657              		.loc 1 321 41 view .LVU249
  658 0098 5A60     		str	r2, [r3, #4]
  659 009a DDE7     		b	.L35
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 35
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 35
 
 
  660              	.LVL33:
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  709              		.loc 1 386 3 view .LVU256
  386:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
  710              		.loc 1 386 3 view .LVU257
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 36
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 36
 
 
  711 0004 90F82400 		ldrb	r0, [r0, #36]	@ zero_extendqisi2
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  748              		.loc 1 392 21 is_stmt 0 view .LVU274
  749 002a 0020     		movs	r0, #0
  750 002c E063     		str	r0, [r4, #60]
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 37
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 37
 
 
  395:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  427:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
  799              		.loc 1 427 3 view .LVU283
  430:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 38
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 38
 
 
  800              		.loc 1 430 3 view .LVU284
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  436:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
  838              		.loc 1 436 5 is_stmt 1 view .LVU301
  436:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 39
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 39
 
 
  839              		.loc 1 436 21 is_stmt 0 view .LVU302
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  878              		.loc 1 464 13 is_stmt 0 view .LVU317
  879 0064 636D     		ldr	r3, [r4, #84]
  464:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     {
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 40
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 40
 
 
  880              		.loc 1 464 8 view .LVU318
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  927              		.loc 1 492 1 is_stmt 1 view -0
  928              		.cfi_startproc
  929              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 41
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 41
 
 
  930              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  967              	.L62:
  511:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
  968              		.loc 1 511 5 is_stmt 1 view .LVU345
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 42
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 42
 
 
  969 0022 0168     		ldr	r1, [r0]
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  525:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     {
  1007              		.loc 1 525 13 is_stmt 0 view .LVU362
  1008 0054 5A6D     		ldr	r2, [r3, #84]
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 43
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 43
 
 
  525:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     {
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  1053              		@ frame_needed = 0, uses_anonymous_args = 0
  551:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   HAL_StatusTypeDef status = HAL_OK;
  1054              		.loc 1 551 1 is_stmt 0 view .LVU375
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 44
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 44
 
 
  1055 0000 08B5     		push	{r3, lr}
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  1093 001e 0268     		ldr	r2, [r0]
  1094 0020 1368     		ldr	r3, [r2]
  1095 0022 23F00103 		bic	r3, r3, #1
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 45
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 45
 
 
  1096 0026 1360     		str	r3, [r2]
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  1132              		.loc 1 585 8 view .LVU409
  1133 0052 33B1     		cbz	r3, .L69
  589:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 46
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 46
 
 
  1134              		.loc 1 589 7 is_stmt 1 view .LVU410
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  1171 0078 1846     		mov	r0, r3
  1172              	.LVL67:
  552:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 47
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 47
 
 
  1173              		.loc 1 552 21 view .LVU428
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  1218 0014 80F82430 		strb	r3, [r0, #36]
  628:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     return HAL_ERROR;
  1219              		.loc 1 628 5 view .LVU440
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 48
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 48
 
 
  629:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   }
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  1257              		.loc 1 653 15 view .LVU457
  1258 003c 8046     		mov	r8, r0
  1259              	.LVL73:
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 49
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 49
 
 
  655:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   {
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  1297              	.LVL75:
  678:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****       {
  1298              		.loc 1 678 51 discriminator 2 view .LVU475
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 50
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 50
 
 
  1299 006e 002D     		cmp	r5, #0
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  1336 008e 436C     		ldr	r3, [r0, #68]
  649:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   }
  1337              		.loc 1 649 58 view .LVU493
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 51
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 51
 
 
  1338 0090 03F01F03 		and	r3, r3, #31
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  698:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     {
  1374              		.loc 1 698 38 view .LVU512
  1375 00b6 1168     		ldr	r1, [r2]
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 52
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 52
 
 
  698:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     {
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  715:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
  1412              		.loc 1 715 36 is_stmt 0 view .LVU531
  1413 00de 5A60     		str	r2, [r3, #4]
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 53
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 53
 
 
  718:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   }
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  733:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   }
  1450              		.loc 1 733 5 is_stmt 1 view .LVU550
  733:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   }
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 54
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 54
 
 
  1451              		.loc 1 733 66 is_stmt 0 view .LVU551
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  1495              		.loc 1 751 12 view .LVU563
  1496 000a DCF800E0 		ldr	lr, [ip]
  1497              	.LVL83:
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 55
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 55
 
 
  754:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   {
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  768:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     {
  1536              		.loc 1 768 5 is_stmt 1 view .LVU580
  768:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****     {
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 56
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 56
 
 
  1537              		.loc 1 768 13 is_stmt 0 view .LVU581
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  1576 0078 436C     		ldr	r3, [r0, #68]
  787:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
  1577              		.loc 1 787 82 view .LVU597
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 57
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 57
 
 
  1578 007a 03F01F02 		and	r2, r3, #31
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  1616 00a6 DCF80030 		ldr	r3, [ip]
  1617 00aa 23F00E03 		bic	r3, r3, #14
  1618 00ae CCF80030 		str	r3, [ip]
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 58
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 58
 
 
  808:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  1654 00d6 B9E7     		b	.L91
  1655              		.cfi_endproc
  1656              	.LFE139:
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 59
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 59
 
 
  1658              		.section	.text.HAL_DMA_RegisterCallback,"ax",%progbits
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  880:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
  1700              		.loc 1 880 3 view .LVU646
  1701 0020 0022     		movs	r2, #0
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 60
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 60
 
 
  1702              	.LVL96:
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  1739              		.loc 1 854 9 is_stmt 1 view .LVU663
  854:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****         break;
  1740              		.loc 1 854 32 is_stmt 0 view .LVU664
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 61
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 61
 
 
  1741 0044 DA62     		str	r2, [r3, #44]
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  1783              		.loc 1 898 3 view .LVU678
  898:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c **** 
  1784              		.loc 1 898 3 view .LVU679
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 62
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 62
 
 
  1785 0002 90F82420 		ldrb	r2, [r0, #36]	@ zero_extendqisi2
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  1825 0034 D862     		str	r0, [r3, #44]
  922:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****         hdma->XferErrorCallback = NULL;
  1826              		.loc 1 922 9 is_stmt 1 view .LVU694
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 63
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 63
 
 
  922:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****         hdma->XferErrorCallback = NULL;
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  1863 0054 E2E7     		b	.L111
  1864              	.L116:
  917:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****         break;
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 64
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 64
 
 
  1865              		.loc 1 917 9 view .LVU713
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  983:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c ****   return hdma->ErrorCode;
  1915              		.loc 1 983 1 is_stmt 1 view -0
  1916              		.cfi_startproc
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 65
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 65
 
 
  1917              		@ args = 0, pretend = 0, frame = 0
@@ -3863,45 +3863,45 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 1
  1934              		.file 5 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
  1935              		.file 6 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h"
  1936              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s 			page 66
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s 			page 66
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32g4xx_hal_dma.c
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:21     .text.DMA_SetConfig:00000000 $t
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:26     .text.DMA_SetConfig:00000000 DMA_SetConfig
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:108    .text.DMA_CalcDMAMUXChannelBaseAndMask:00000000 $t
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:113    .text.DMA_CalcDMAMUXChannelBaseAndMask:00000000 DMA_CalcDMAMUXChannelBaseAndMask
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:193    .text.DMA_CalcDMAMUXChannelBaseAndMask:00000044 $d
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:202    .text.DMA_CalcDMAMUXRequestGenBaseAndMask:00000000 $t
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:207    .text.DMA_CalcDMAMUXRequestGenBaseAndMask:00000000 DMA_CalcDMAMUXRequestGenBaseAndMask
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:249    .text.DMA_CalcDMAMUXRequestGenBaseAndMask:00000024 $d
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:255    .text.HAL_DMA_Init:00000000 $t
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:261    .text.HAL_DMA_Init:00000000 HAL_DMA_Init
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:478    .text.HAL_DMA_Init:000000c0 $d
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:488    .text.HAL_DMA_DeInit:00000000 $t
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:494    .text.HAL_DMA_DeInit:00000000 HAL_DMA_DeInit
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:676    .text.HAL_DMA_DeInit:000000a0 $d
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:686    .text.HAL_DMA_Start:00000000 $t
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:692    .text.HAL_DMA_Start:00000000 HAL_DMA_Start
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:777    .text.HAL_DMA_Start_IT:00000000 $t
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:783    .text.HAL_DMA_Start_IT:00000000 HAL_DMA_Start_IT
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:918    .text.HAL_DMA_Abort:00000000 $t
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:924    .text.HAL_DMA_Abort:00000000 HAL_DMA_Abort
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:1041   .text.HAL_DMA_Abort_IT:00000000 $t
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:1047   .text.HAL_DMA_Abort_IT:00000000 HAL_DMA_Abort_IT
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:1179   .text.HAL_DMA_PollForTransfer:00000000 $t
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:1185   .text.HAL_DMA_PollForTransfer:00000000 HAL_DMA_PollForTransfer
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:1467   .text.HAL_DMA_IRQHandler:00000000 $t
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:1473   .text.HAL_DMA_IRQHandler:00000000 HAL_DMA_IRQHandler
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:1659   .text.HAL_DMA_RegisterCallback:00000000 $t
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:1665   .text.HAL_DMA_RegisterCallback:00000000 HAL_DMA_RegisterCallback
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:1765   .text.HAL_DMA_UnRegisterCallback:00000000 $t
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:1771   .text.HAL_DMA_UnRegisterCallback:00000000 HAL_DMA_UnRegisterCallback
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:1882   .text.HAL_DMA_GetState:00000000 $t
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:1888   .text.HAL_DMA_GetState:00000000 HAL_DMA_GetState
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:1906   .text.HAL_DMA_GetError:00000000 $t
-C:\Users\MyPC\AppData\Local\Temp\ccS8XDvS.s:1912   .text.HAL_DMA_GetError:00000000 HAL_DMA_GetError
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:21     .text.DMA_SetConfig:00000000 $t
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:26     .text.DMA_SetConfig:00000000 DMA_SetConfig
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:108    .text.DMA_CalcDMAMUXChannelBaseAndMask:00000000 $t
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:113    .text.DMA_CalcDMAMUXChannelBaseAndMask:00000000 DMA_CalcDMAMUXChannelBaseAndMask
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:193    .text.DMA_CalcDMAMUXChannelBaseAndMask:00000044 $d
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:202    .text.DMA_CalcDMAMUXRequestGenBaseAndMask:00000000 $t
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:207    .text.DMA_CalcDMAMUXRequestGenBaseAndMask:00000000 DMA_CalcDMAMUXRequestGenBaseAndMask
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:249    .text.DMA_CalcDMAMUXRequestGenBaseAndMask:00000024 $d
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:255    .text.HAL_DMA_Init:00000000 $t
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:261    .text.HAL_DMA_Init:00000000 HAL_DMA_Init
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:478    .text.HAL_DMA_Init:000000c0 $d
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:488    .text.HAL_DMA_DeInit:00000000 $t
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:494    .text.HAL_DMA_DeInit:00000000 HAL_DMA_DeInit
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:676    .text.HAL_DMA_DeInit:000000a0 $d
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:686    .text.HAL_DMA_Start:00000000 $t
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:692    .text.HAL_DMA_Start:00000000 HAL_DMA_Start
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:777    .text.HAL_DMA_Start_IT:00000000 $t
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:783    .text.HAL_DMA_Start_IT:00000000 HAL_DMA_Start_IT
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:918    .text.HAL_DMA_Abort:00000000 $t
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:924    .text.HAL_DMA_Abort:00000000 HAL_DMA_Abort
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:1041   .text.HAL_DMA_Abort_IT:00000000 $t
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:1047   .text.HAL_DMA_Abort_IT:00000000 HAL_DMA_Abort_IT
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:1179   .text.HAL_DMA_PollForTransfer:00000000 $t
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:1185   .text.HAL_DMA_PollForTransfer:00000000 HAL_DMA_PollForTransfer
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:1467   .text.HAL_DMA_IRQHandler:00000000 $t
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:1473   .text.HAL_DMA_IRQHandler:00000000 HAL_DMA_IRQHandler
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:1659   .text.HAL_DMA_RegisterCallback:00000000 $t
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:1665   .text.HAL_DMA_RegisterCallback:00000000 HAL_DMA_RegisterCallback
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:1765   .text.HAL_DMA_UnRegisterCallback:00000000 $t
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:1771   .text.HAL_DMA_UnRegisterCallback:00000000 HAL_DMA_UnRegisterCallback
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:1882   .text.HAL_DMA_GetState:00000000 $t
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:1888   .text.HAL_DMA_GetState:00000000 HAL_DMA_GetState
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:1906   .text.HAL_DMA_GetError:00000000 $t
+C:\Users\MyPC\AppData\Local\Temp\ccV9ZIzF.s:1912   .text.HAL_DMA_GetError:00000000 HAL_DMA_GetError
 
 UNDEFINED SYMBOLS
 HAL_GetTick

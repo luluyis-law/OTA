@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 1
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 1
   28:Core/Src/spi.c **** DMA_HandleTypeDef hdma_spi2_rx;
   29:Core/Src/spi.c **** DMA_HandleTypeDef hdma_spi2_tx;
   30:Core/Src/spi.c **** 
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 2
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s 			page 2
 
 
   31:Core/Src/spi.c **** /* SPI2 init function */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 1
   49:Core/Src/spi.c ****   hspi2.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_4;
   65              		.loc 1 49 3 is_stmt 1 view .LVU15
   66              		.loc 1 49 32 is_stmt 0 view .LVU16
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 3
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s 			page 3
 
 
   67 0022 0822     		movs	r2, #8
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 1
  105              	.L5:
  106 0044 00000000 		.word	hspi2
  107 0048 00380040 		.word	1073756160
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 4
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s 			page 4
 
 
  108              		.cfi_endproc
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 1
   78:Core/Src/spi.c ****     __HAL_RCC_GPIOB_CLK_ENABLE();
   79:Core/Src/spi.c ****     /**SPI2 GPIO Configuration
   80:Core/Src/spi.c ****     PB12     ------> SPI2_NSS
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 5
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s 			page 5
 
 
   81:Core/Src/spi.c ****     PB13     ------> SPI2_SCK
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 1
  151              		.loc 1 134 1 view .LVU42
  152 0018 08B0     		add	sp, sp, #32
  153              	.LCFI3:
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 6
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s 			page 6
 
 
  154              		.cfi_remember_state
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 1
  195              		.loc 1 85 5 view .LVU56
   85:Core/Src/spi.c ****     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
  196              		.loc 1 85 25 is_stmt 0 view .LVU57
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 7
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s 			page 7
 
 
  197 0046 4FF47043 		mov	r3, #61440
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 1
  233              		.loc 1 98 30 is_stmt 0 view .LVU75
  234 006c 8022     		movs	r2, #128
  235 006e 0261     		str	r2, [r0, #16]
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 8
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s 			page 8
 
 
   99:Core/Src/spi.c ****     hdma_spi2_rx.Init.MemDataAlignment = DMA_MDATAALIGN_BYTE;
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 1
  113:Core/Src/spi.c ****     hdma_spi2_tx.Init.PeriphInc = DMA_PINC_DISABLE;
  271              		.loc 1 113 5 is_stmt 1 view .LVU95
  113:Core/Src/spi.c ****     hdma_spi2_tx.Init.PeriphInc = DMA_PINC_DISABLE;
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 9
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s 			page 9
 
 
  272              		.loc 1 113 33 is_stmt 0 view .LVU96
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 1
  125:Core/Src/spi.c **** 
  308              		.loc 1 125 5 view .LVU115
  128:Core/Src/spi.c ****     HAL_NVIC_EnableIRQ(SPI2_IRQn);
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 10
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s 			page 10
 
 
  309              		.loc 1 128 5 view .LVU116
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 1
  357              		.loc 1 139 3 view .LVU122
  358              		.loc 1 139 15 is_stmt 0 view .LVU123
  359 0000 0268     		ldr	r2, [r0]
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 11
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s 			page 11
 
 
  360              		.loc 1 139 5 view .LVU124
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 1
  160:Core/Src/spi.c ****     HAL_NVIC_DisableIRQ(SPI2_IRQn);
  393              		.loc 1 160 5 view .LVU131
  394 002e 2420     		movs	r0, #36
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 12
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s 			page 12
 
 
  395 0030 FFF7FEFF 		bl	HAL_NVIC_DisableIRQ
@@ -718,30 +718,30 @@ ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 1
  439              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h"
  440              		.file 9 "Core/Inc/spi.h"
  441              		.file 10 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h"
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 13
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s 			page 13
 
 
  442              		.file 11 "Core/Inc/main.h"
-ARM GAS  C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s 			page 14
+ARM GAS  C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 spi.c
-C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s:21     .text.MX_SPI2_Init:00000000 $t
-C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s:27     .text.MX_SPI2_Init:00000000 MX_SPI2_Init
-C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s:106    .text.MX_SPI2_Init:00000044 $d
-C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s:429    .bss.hspi2:00000000 hspi2
-C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s:112    .text.HAL_SPI_MspInit:00000000 $t
-C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s:118    .text.HAL_SPI_MspInit:00000000 HAL_SPI_MspInit
-C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s:334    .text.HAL_SPI_MspInit:000000cc $d
-C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s:422    .bss.hdma_spi2_rx:00000000 hdma_spi2_rx
-C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s:415    .bss.hdma_spi2_tx:00000000 hdma_spi2_tx
-C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s:344    .text.HAL_SPI_MspDeInit:00000000 $t
-C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s:350    .text.HAL_SPI_MspDeInit:00000000 HAL_SPI_MspDeInit
-C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s:404    .text.HAL_SPI_MspDeInit:00000038 $d
-C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s:412    .bss.hdma_spi2_tx:00000000 $d
-C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s:419    .bss.hdma_spi2_rx:00000000 $d
-C:\Users\MyPC\AppData\Local\Temp\cc2g7ZSh.s:426    .bss.hspi2:00000000 $d
+C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s:21     .text.MX_SPI2_Init:00000000 $t
+C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s:27     .text.MX_SPI2_Init:00000000 MX_SPI2_Init
+C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s:106    .text.MX_SPI2_Init:00000044 $d
+C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s:429    .bss.hspi2:00000000 hspi2
+C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s:112    .text.HAL_SPI_MspInit:00000000 $t
+C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s:118    .text.HAL_SPI_MspInit:00000000 HAL_SPI_MspInit
+C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s:334    .text.HAL_SPI_MspInit:000000cc $d
+C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s:422    .bss.hdma_spi2_rx:00000000 hdma_spi2_rx
+C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s:415    .bss.hdma_spi2_tx:00000000 hdma_spi2_tx
+C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s:344    .text.HAL_SPI_MspDeInit:00000000 $t
+C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s:350    .text.HAL_SPI_MspDeInit:00000000 HAL_SPI_MspDeInit
+C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s:404    .text.HAL_SPI_MspDeInit:00000038 $d
+C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s:412    .bss.hdma_spi2_tx:00000000 $d
+C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s:419    .bss.hdma_spi2_rx:00000000 $d
+C:\Users\MyPC\AppData\Local\Temp\ccflN1px.s:426    .bss.hspi2:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_SPI_Init
